@@ -12,7 +12,6 @@ function solution(A) {
     //Pegando o menor valor
     var menorNumero = Math.min(...A)
 
-    //Cereja do Bolo, fica a vontade para se deliciar he he he
     tirarDuplicata.forEach(numero => {
       if(numero != menorNumero){
         return menorNumero;
